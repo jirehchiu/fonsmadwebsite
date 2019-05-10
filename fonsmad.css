@@ -1,0 +1,191 @@
+p{
+	text-align: justify;
+}
+
+body {
+	position:relative;
+	
+	
+}
+
+footer {
+	padding: 0.5%;
+	position: relative;
+	background-color: #696969;
+	font-family: 'Arimo', sans-serif;
+	font-size: 2.5vh;
+	color: white;
+}
+
+h1 {
+	font-family: 'Varela Round', monospace;
+	font-size: 14vh;
+	color: white;
+	font-weight: strong;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+h2 {
+	font-family: 'Arimo', sans-serif;
+	font-size: 7vh;
+	color: white;
+}
+
+hr {
+  border-top: 3px solid #57b949;
+  margin: 0;
+  padding: 0;
+}
+
+
+.list-group-item{
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+	text-align: justify;
+	border-radius: 0 !important;
+	border-left: 0px;
+	border-right: 0px;
+	
+}
+
+
+.center {
+	text-align: center;
+	position: relative;
+}
+
+.banner_logo {
+	opacity: 0.8;
+	max-width: 35%;
+	height: auto;
+	
+}
+
+.jumbotron {
+	background-image: url(smog.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	opacity:0.8;
+}
+
+.paragraph {
+	font-family: Varela Round, sans-serif;
+	font-size:2vmax;
+	color: white;
+}
+
+.navbar {
+	background-color: #000;
+	opacity: 0.75;
+}
+
+.black {
+	color: black;
+}
+
+.btn btn-success {
+	width: 100%;
+	height; 100%;
+}
+
+.btn-lg {
+    padding: 2.5%; 
+	border-radius:20vh;
+	font-size: 3vh
+}
+
+.image_banner {
+	height: 100%;
+	opacity:0.9;
+	padding:15% 5%;
+	color: #000; 
+	background-color: #1E88E5;
+}
+
+.imgcenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.transparent {
+	opacity:0.5;
+}
+	
+	
+#nav_container {
+	height:51px;
+	padding:15px 15px;
+	background-color: #696969;
+}
+
+
+#top {
+	background-image: url("battery.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about {
+	padding:5%;
+	height:100%;
+	background-color: #696969;
+}
+
+#info {
+	padding:5%;
+	height:100%;
+	background-color: #535353;
+}
+
+
+#team {
+	padding:5%;
+	height:100%;
+	background-color: #363636;
+}
+
+#contact {
+	padding:5%;
+	height:100%;
+	background: #878787;
+}
+
+#bottom {
+	padding:1%;
+	height: auto;
+	background-color: #696969;
+}
+
+
+#break1 {
+	background-image: url("mountains.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 40vh;
+}
+
+#break2 {
+	background-image: url("chipboard.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 40vh;
+}
+
+#break3 {
+	background-image: url("imperial.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 40vh;
+}
