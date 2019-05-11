@@ -202,11 +202,11 @@
 <script>
 	//script charges the battery as you scroll down the page
 	$(window).scroll(function() {
-		if ($(".navbar").offset().top > 2000 && $(".navbar").offset().top < 3500 ) {
+		if ($(".navbar").offset().top > 1000 && $(".navbar").offset().top < 2500 ) {
 			$('#mynavbar').addClass('affix');
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
 			$('.navbar-brand img').attr('src','logohalfcharge.png'); 
-		} else if ($(".navbar").offset().top > 3500 ) {
+		} else if ($(".navbar").offset().top > 2500 ) {
 			$('#mynavbar').addClass('affix');
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
 			$('.navbar-brand img').attr('src','logoemptycharge.png');  
